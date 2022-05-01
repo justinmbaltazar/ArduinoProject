@@ -1,7 +1,8 @@
-#define relay1 8
-#define relay2 9
-#define relay3 10
-#define interval 1000
+#define relay1 8 //pin
+#define relay2 9 //pin
+#define relay3 10 //pin
+//you can remove the pins as needed
+#define interval 1000 //milliseconds delay
 void setup() {
   pinMode(relay1, OUTPUT);
   pinMode(relay2, OUTPUT);
